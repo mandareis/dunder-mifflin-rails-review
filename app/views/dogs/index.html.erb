@@ -1,0 +1,6 @@
+<h1>Our Dogs:</h1>
+<ol>
+  <% @dogs.each do |dog| %>
+    <li><%=link_to, submit_tag "Sort by number of employees" dog.name, dog %></li>
+  <% end %>
+</ol>
