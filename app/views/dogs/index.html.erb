@@ -4,3 +4,4 @@
     <li><%=link_to dog.name, dog %></li>
   <% end %>
 </ol>
+<%= button_to "Sort by number of employees", dogs_path, method: :get, name: :sort %>
